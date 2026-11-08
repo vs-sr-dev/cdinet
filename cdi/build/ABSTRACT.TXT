@@ -1,0 +1,1 @@
+cdiNet: a web browser for the CD-i, through a proxy on the serial port.

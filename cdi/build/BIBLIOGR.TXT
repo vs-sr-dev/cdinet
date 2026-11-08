@@ -1,0 +1,2 @@
+cdiNet homebrew. Built with the Microware CD-i SDK in Docker (cdi-toolchain).
+Video set-up after TwBurn's Nobelia (2022).

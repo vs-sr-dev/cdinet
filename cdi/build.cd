@@ -1,0 +1,22 @@
+options: -s
+
+define
+	album		"cdiNet"
+	publisher	"CDI-Homebrew-Toolchain"
+	preparer	"CDI-Homebrew-Toolchain"
+
+	volume	"cdiNet"	in	"DISK/CDINET.CDI"
+
+	copyright	file	Copyright	from "BUILD/COPYRGHT.TXT"
+	abstract	file	Abstract	from "BUILD/ABSTRACT.TXT"
+	biblio		file	Biblio		from "BUILD/BIBLIOGR.TXT"
+	message							from "BUILD/MESSAGE.TXT"
+
+	application file	Browser   from "BUILD/CDINET"
+
+{
+	"COPYRGHT.TXT"	protection 0x555	from	Copyright
+	"ABSTRACT.TXT"	protection 0x555	from	Abstract
+	"BIBLIOGR.TXT"	protection 0x555	from	Biblio
+	"cdi_cdinet"     protection 0x555	from	Browser
+}

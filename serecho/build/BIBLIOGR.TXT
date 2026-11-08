@@ -1,0 +1,1 @@
+cdiNet serial echo test. Built with the Microware CD-i SDK in Docker (cdi-toolchain).

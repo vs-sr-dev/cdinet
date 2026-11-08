@@ -1,0 +1,1 @@
+cdiNet serial echo test: /t2 in raw mode, echoes upper case.

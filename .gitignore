@@ -1,0 +1,15 @@
+# the Microware SDK's tools, linked next to the sources by the Docker entrypoint
+*.exe
+*.dll
+*.tdb
+# build products
+*/out/
+*/disk/
+cdi/build/cdinet
+serecho/build/serecho
+*/map.txt
+*/link.txt
+*/master.log
+*/MASTER.LOG
+__pycache__/
+*.png
